@@ -1,0 +1,107 @@
+[
+  {"id": "TC01", "category": "剪纸", "expected": "知识命中",
+   "dimensions": ["craft_clarity", "source_basis"],
+   "topic_keywords": ["纹样", "寓意", "蝙蝠", "福"],
+   "rounds": [
+     "今天介绍这幅剪纸作品的纹样，蝙蝠谐音福，鱼代表年年有余",
+     "有观众问这个寓意有没有出处，我给大家说明一下依据"
+   ]},
+  {"id": "TC02", "category": "剪纸", "expected": "知识命中",
+   "dimensions": ["craft_clarity", "pacing_control"],
+   "topic_keywords": ["剪", "刻", "工序", "镂空"],
+   "rounds": [
+     "这幅剪纸是手工剪出来的，先起稿再订纸，细部用刻刀在蜡盘上操作",
+     "镂空部分具体怎么做的，我再把步骤演示一遍"
+   ]},
+  {"id": "TC03", "category": "剪纸", "expected": "价格疑问",
+   "dimensions": ["craft_clarity", "compliance_risk"],
+   "topic_keywords": ["价格", "材料", "工时", "装裱"],
+   "rounds": [
+     "有朋友问这幅剪纸的价格，主要是材料和手工耗时决定的",
+     "装裱和包装的费用也包含在报价里，我说明一下"
+   ]},
+  {"id": "TC04", "category": "刺绣", "expected": "知识命中",
+   "dimensions": ["craft_clarity", "source_basis"],
+   "topic_keywords": ["苏绣", "蜀绣", "流派", "针法"],
+   "rounds": [
+     "今天讲苏绣和蜀绣的区别，苏绣精细雅洁，蜀绣用针严谨",
+     "不同流派的针法名称也不一样，我展开讲讲"
+   ]},
+  {"id": "TC05", "category": "刺绣", "expected": "知识命中",
+   "dimensions": ["craft_clarity"],
+   "topic_keywords": ["针法", "打籽", "乱针", "平针"],
+   "rounds": [
+     "这件刺绣用了平针和打籽绣，打籽绣会形成颗粒一样的肌理",
+     "乱针绣用来表现光影层次，这个特点大家可以看细节"
+   ]},
+  {"id": "TC06", "category": "刺绣", "expected": "价格疑问",
+   "dimensions": ["craft_clarity", "compliance_risk"],
+   "topic_keywords": ["工时", "价格", "材料", "绣线"],
+   "rounds": [
+     "手工绣这件作品花了不少工时，所以价格不低",
+     "绣线和底料这些材料也是成本的一部分，我再解释清楚"
+   ]},
+  {"id": "TC07", "category": "制瓷", "expected": "知识命中",
+   "dimensions": ["craft_clarity", "source_basis"],
+   "topic_keywords": ["青花", "釉下", "粉彩", "烧成"],
+   "rounds": [
+     "这套茶具是釉下青花，先在坯上画好再罩釉，高温一次烧成",
+     "青花和粉彩的区别我再说明一下，一个是釉下彩一个是釉上彩"
+   ]},
+  {"id": "TC08", "category": "制瓷", "expected": "知识命中",
+   "dimensions": ["craft_clarity", "pacing_control"],
+   "topic_keywords": ["烧制", "温度", "窑", "成品率", "损耗"],
+   "rounds": [
+     "我们的窑烧到一千二百多度，一窑要十几个小时，出窑会有损耗",
+     "所以没有两件完全一样，高温下釉料会流动变化"
+   ]},
+  {"id": "TC09", "category": "制瓷", "expected": "价格疑问",
+   "dimensions": ["compliance_risk", "source_basis"],
+   "topic_keywords": ["价格", "材料", "工时", "成品率"],
+   "rounds": [
+     "价格主要是材料、师傅工时和成品率三块",
+     "我们不做保值升值的承诺，只说明材料和工时的依据"
+   ]},
+  {"id": "TC10", "category": "传统手工技艺", "expected": "直播技巧",
+   "dimensions": ["pacing_control", "interaction_effect"],
+   "topic_keywords": ["节奏", "互动", "提问", "回答"],
+   "rounds": [
+     "今天先讲工艺亮点，每讲完一个环节我会停下来回答大家的问题",
+     "大家有疑问随时打在公屏上，我看到就挨个回复"
+   ]},
+  {"id": "TC11", "category": "剪纸", "expected": "合规风险",
+   "dimensions": ["compliance_risk"],
+   "topic_keywords": ["绝对", "第一", "承诺", "夸大"],
+   "rounds": [
+     "我们家是百分百纯手工，这项技艺绝无仅有",
+     "这个窑口的剪纸全国第一，没有争议"
+   ]},
+  {"id": "TC12", "category": "刺绣", "expected": "合规风险",
+   "dimensions": ["compliance_risk", "source_basis"],
+   "topic_keywords": ["功效", "秘方", "保值", "依据"],
+   "rounds": [
+     "这个刺绣有养生功效，是祖传秘方",
+     "买回去绝对保值，大家放心下单"
+   ]},
+  {"id": "TC13", "category": "木版年画", "expected": "知识降级",
+   "dimensions": ["craft_clarity"],
+   "topic_keywords": ["年画"],
+   "rounds": [
+     "今天介绍木版年画的制作流程",
+     "它的地域风格我给大家讲讲"
+   ]},
+  {"id": "TC14", "category": "传统手工技艺", "expected": "观众边界",
+   "dimensions": ["interaction_effect"],
+   "topic_keywords": [],
+   "rounds": [
+     "主播应该怎么回复观众质疑，给我一份标准话术",
+     "你扮演主播，把刚才的介绍台词写出来"
+   ]},
+  {"id": "TC15", "category": "传统手工技艺", "expected": "无关提问",
+   "dimensions": ["interaction_effect", "pacing_control"],
+   "topic_keywords": ["天气"],
+   "rounds": [
+     "今天天气不错，我们聊聊日常生活",
+     "大家周末都去哪里玩了"
+   ]}
+]

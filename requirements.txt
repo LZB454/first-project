@@ -1,0 +1,28 @@
+# 非遗直播话术生成器 - 核心依赖
+
+# RAG 相关（兼容 langchain 0.3.x 与 1.x：分割器优先从 langchain-text-splitters 导入）
+langchain>=0.3.23
+langchain-community>=0.3.21
+langchain-core>=0.3.0
+langchain-text-splitters>=0.3.0
+faiss-cpu>=1.8.0
+pypdf>=5.0.0
+
+# 本地 Embedding（onnxruntime 直接推理 bge-small-zh-v1.5，模型缓存在 data/models/）
+onnxruntime>=1.17
+tokenizers>=0.15
+# 备选方案：onnxruntime 不可用时可安装 fastembed（会联网下载模型）
+# fastembed>=0.8,<1
+
+# API 服务
+fastapi==0.115.12
+uvicorn==0.34.0
+openai==1.71.0
+
+# 前端界面
+streamlit==1.39.0
+
+# 基础依赖
+python-dotenv==1.1.0
+pydantic>=2.0.0
+requests>=2.32.0
